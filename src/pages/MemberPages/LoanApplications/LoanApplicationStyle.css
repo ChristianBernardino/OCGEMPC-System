@@ -1,0 +1,45 @@
+.loan-application-card{
+    z-index: 4;
+    position: fixed;
+    background-color:  #FFF;
+    width: 90%;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 4px  rgba(0, 0, 0, 0.25);
+}
+.loan-table-row{
+    cursor: pointer;
+}
+.status-badge {
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: .9rem;
+    text-transform: capitalize;
+  }
+  
+  .status-approved {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .status-pending {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
+  .status-rejected {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+
+.loan-application-pagination-item.active > .page-link{
+    background-color: #05923b;
+    border-color: #05923b;
+}
+.loan-application-pagination-item > .page-link{
+    color: #155724;
+}
+.loan-application-pagination-item > .page-link:hover{
+    background-color: #05923b ;
+    border-color: #05923b;
+}
